@@ -6,7 +6,7 @@ import './App.css'
 import "./style/skills.css"
 import "./style/project.css"
 import "./style/navBar.css"
-import './style/headpage.css'
+import './style/headPage.css'
 import "./style/education.css"
 import "./style/content.css"
 
