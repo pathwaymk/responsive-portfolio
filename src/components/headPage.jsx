@@ -3,7 +3,6 @@ import lightModeImg from "../assets/hello.jpg"
 import darkModeImg from "../assets/pencile.jpg"
 import download from "../assets/download.svg"
 import resume from "../assets/Manoj kumar.pdf"
-import '../style/headpage.css'
 
 
 export default ({setLight, isLight}) => {

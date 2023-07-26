@@ -3,7 +3,6 @@ import java from "../assets/java.png"
 import python from "../assets/python.png"
 import sql from "../assets/sql.png"
 import web from "../assets/web.png"
-import "../style/skills.css"
 
 
 export default ({isLight}) => {

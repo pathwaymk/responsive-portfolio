@@ -1,7 +1,6 @@
 import React from "react";
 import school from "../assets/school.svg"
 import college from "../assets/college.svg"
-import "../style/education.css"
 
 
 

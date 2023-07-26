@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/project.css"
 
 export default ({isLight}) => {
     const projectData = [

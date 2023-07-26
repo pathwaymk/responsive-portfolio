@@ -4,7 +4,6 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Project from "./projects";
 import HeadPage from "./headPage";
-import "../style/content.css"
 
 
 export default ({isLight, setLight}) => {

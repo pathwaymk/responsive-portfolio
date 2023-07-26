@@ -1,7 +1,14 @@
 import { useState, useEffect } from 'react'
 import NavBar from './components/NavBar'
-import './App.css'
 import Content from './components/Content'
+// Importing style
+import './App.css'
+import "./style/skills.css"
+import "./style/project.css"
+import "./style/navBar.css"
+import './style/headpage.css'
+import "./style/education.css"
+import "./style/content.css"
 
 function App() {
   const [size, setSize] = useState(window.innerWidth)
