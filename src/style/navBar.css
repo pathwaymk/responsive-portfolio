@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+nav{
+    width: 20vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    justify-content: space-evenly;
+    font-family: "Quicksand", "sans-serif";
+    font-weight: 600;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.profile img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+nav div{
+    transition: all 0.5s;
+}
+
+#show{
+    position: relative;
+    visibility : visible;
+    top: 0;
+    transition: all 1s ease;
+}
+
+.context{
+    font-family: "Quicksand", "sans-serif";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.context p{
+    margin: 0.4rem;
+}
+
+nav h1{
+    font-family: 'Aclonica', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.btnColor{
+    width: 9.47rem;
+    height: 2.6rem;
+    border-radius: 3rem;
+    border: 0px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(143,113,133,1) 0%, rgba(136,58,84,1) 100%);
+}
+.navContent{
+    text-align: center;
+}
+
+.navContent a{
+    display: block;
+    cursor: pointer;
+    margin: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navContent a:visited{
+    color: inherit;
+}
+
+.socialIcons img{
+    width: 1.5rem;
+    padding: 1rem;
+}
+
+.mail img{
+    width: 1.5rem;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+}
+
+@media only screen and (max-width : 965px){
+
+    nav{
+        visibility: hidden;
+        width: 100vw;
+        transition: all 1s ease;
+        top: -100rem;
+    }
+}

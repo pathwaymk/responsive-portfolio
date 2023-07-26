@@ -1,0 +1,18 @@
+.mainContent{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.mainPage.long{
+    margin-left: 20vw;
+    width: 80vw;
+}
+
+
+@media only screen and (max-width : 965px){
+
+    .mainPage.long{
+        width: 100vw;
+        margin-left: 0;
+    }
+
+}
